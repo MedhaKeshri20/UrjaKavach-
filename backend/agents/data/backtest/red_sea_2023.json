@@ -1,0 +1,29 @@
+{
+  "id": "red_sea_2023",
+  "corridor": "suez_cape",
+  "label": "Red Sea / Houthi shipping crisis (Nov 2023 – Mar 2024)",
+  "brent_baseline_start": "2023-11-01",
+  "brent_baseline_end": "2023-11-18",
+  "headlines": [
+    { "ts": "2023-11-19T00:00:00Z", "source_id": "news_suez_2023_houthi" },
+    { "ts": "2023-12-03T00:00:00Z", "source_id": "news_suez_2023_dec_triple_attack" },
+    { "ts": "2023-12-18T00:00:00Z", "source_id": "news_suez_2023_bp_pause" },
+    { "ts": "2024-01-12T00:00:00Z", "source_id": "news_suez_2024_us_uk_strikes" },
+    { "ts": "2024-01-15T00:00:00Z", "source_id": "news_suez_2024_reroute" },
+    { "ts": "2024-02-02T00:00:00Z", "source_id": "sanc_suez_2024_insurance" },
+    { "ts": "2024-03-06T00:00:00Z", "source_id": "news_suez_2024_strike" }
+  ],
+  "brent_series": [
+    { "ts": "2023-11-01T00:00:00Z", "price_usd_bbl": 80.40 },
+    { "ts": "2023-11-08T00:00:00Z", "price_usd_bbl": 80.70 },
+    { "ts": "2023-11-15T00:00:00Z", "price_usd_bbl": 80.20 },
+    { "ts": "2023-11-18T00:00:00Z", "price_usd_bbl": 80.60 },
+    { "ts": "2023-11-19T00:00:00Z", "price_usd_bbl": 79.30 },
+    { "ts": "2023-12-03T00:00:00Z", "price_usd_bbl": 79.80 },
+    { "ts": "2023-12-18T00:00:00Z", "price_usd_bbl": 81.20 },
+    { "ts": "2024-01-12T00:00:00Z", "price_usd_bbl": 82.90 },
+    { "ts": "2024-01-15T00:00:00Z", "price_usd_bbl": 83.40 },
+    { "ts": "2024-02-02T00:00:00Z", "price_usd_bbl": 85.10 },
+    { "ts": "2024-03-06T00:00:00Z", "price_usd_bbl": 87.60 }
+  ]
+}

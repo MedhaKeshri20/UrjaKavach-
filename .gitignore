@@ -1,0 +1,78 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ---- Test / coverage caches ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+nosetests.xml
+
+# ---- Secrets / environment ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---- Databases / vector store artifacts ----
+*.sqlite3
+*.db
+chroma/
+.chroma/
+*.faiss
+
+# ---- LLM response cache (SPEC.md Phase 4) ----
+# Segment 1 Phase 10 committed the canonical demo scenario's real Groq
+# response here on purpose (offline-demo cut-over) -- any *other* locally
+# generated cache entry (a different headline/corridor a developer tries)
+# is still just untracked-but-not-ignored, same as any new file would be.
+
+# ---- Node / frontend (future portals) ----
+node_modules/
+dist-ssr/
+*.local
+.vite/
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini

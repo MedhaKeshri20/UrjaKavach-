@@ -1,0 +1,9 @@
+[
+  { "id": "iq_basrah", "country": "Iraq",         "crude_grade": "Basrah Medium", "base_price": 82.4, "lead_days": 12, "corridor_id": "hormuz" },
+  { "id": "sa_arablight", "country": "Saudi Arabia", "crude_grade": "Arab Light",  "base_price": 84.0, "lead_days": 11, "corridor_id": "hormuz" },
+  { "id": "ae_murban", "country": "UAE",           "crude_grade": "Murban",        "base_price": 85.2, "lead_days": 10, "corridor_id": "hormuz" },
+  { "id": "ru_urals",  "country": "Russia",        "crude_grade": "Urals",         "base_price": 74.1, "lead_days": 22, "corridor_id": "suez_cape" },
+  { "id": "ng_bonny",  "country": "Nigeria",       "crude_grade": "Bonny Light",   "base_price": 86.5, "lead_days": 20, "corridor_id": "suez_cape" },
+  { "id": "us_wti",    "country": "USA",           "crude_grade": "WTI",           "base_price": 88.9, "lead_days": 35, "corridor_id": "atlantic" },
+  { "id": "br_tupi",   "country": "Brazil",        "crude_grade": "Lula",          "base_price": 83.7, "lead_days": 30, "corridor_id": "atlantic" }
+]

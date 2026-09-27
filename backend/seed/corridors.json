@@ -1,0 +1,6 @@
+[
+  { "id": "hormuz",    "name": "Strait of Hormuz",     "chokepoint": "Strait of Hormuz",     "base_volume_pct": 42.0, "status": "normal", "war_risk_pct": 0.004,  "detour_days": 0.0,  "geojson_path": "backend/seed/geo/hormuz.geojson" },
+  { "id": "suez_cape", "name": "Suez / Cape of Good Hope", "chokepoint": "Suez Canal",        "base_volume_pct": 18.0, "status": "normal", "war_risk_pct": 0.02,   "detour_days": 10.0, "geojson_path": "backend/seed/geo/suez_cape.geojson" },
+  { "id": "atlantic",  "name": "Atlantic Basin",        "chokepoint": "Open Atlantic",        "base_volume_pct": 12.0, "status": "normal", "war_risk_pct": 0.0005, "detour_days": 0.0,  "geojson_path": "backend/seed/geo/atlantic.geojson" },
+  { "id": "malacca",   "name": "Strait of Malacca",     "chokepoint": "Strait of Malacca",    "base_volume_pct": 15.0, "status": "normal", "war_risk_pct": 0.0015, "detour_days": 0.0,  "geojson_path": "backend/seed/geo/malacca.geojson" }
+]

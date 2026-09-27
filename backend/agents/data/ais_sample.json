@@ -1,0 +1,994 @@
+[
+  {
+    "id": "hormuz_01",
+    "corridor_id": "hormuz",
+    "track": [
+      {
+        "ts": "2026-01-15T00:00:00Z",
+        "lat": 26.57,
+        "lon": 56.25,
+        "heading_deg": 135.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T03:00:00Z",
+        "lat": 26.5346,
+        "lon": 56.2854,
+        "heading_deg": 135.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T06:00:00Z",
+        "lat": 26.4993,
+        "lon": 56.3207,
+        "heading_deg": 135.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T09:00:00Z",
+        "lat": 26.4639,
+        "lon": 56.3561,
+        "heading_deg": 135.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T12:00:00Z",
+        "lat": 26.4286,
+        "lon": 56.3914,
+        "heading_deg": 135.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T15:00:00Z",
+        "lat": 26.3932,
+        "lon": 56.4268,
+        "heading_deg": 135.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T18:00:00Z",
+        "lat": 26.3579,
+        "lon": 56.4621,
+        "heading_deg": 135.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T21:00:00Z",
+        "lat": 26.3225,
+        "lon": 56.4975,
+        "heading_deg": 135.0,
+        "speed_knots": 11.0
+      }
+    ]
+  },
+  {
+    "id": "hormuz_02",
+    "corridor_id": "hormuz",
+    "track": [
+      {
+        "ts": "2026-01-15T00:00:00Z",
+        "lat": 27.07,
+        "lon": 55.95,
+        "heading_deg": 135.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T03:00:00Z",
+        "lat": 27.0346,
+        "lon": 55.9854,
+        "heading_deg": 135.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T06:00:00Z",
+        "lat": 26.9993,
+        "lon": 56.0207,
+        "heading_deg": 135.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T18:00:00Z",
+        "lat": 26.62,
+        "lon": 56.55,
+        "heading_deg": 230.0,
+        "speed_knots": 3.5
+      },
+      {
+        "ts": "2026-01-15T21:00:00Z",
+        "lat": 26.55,
+        "lon": 56.62,
+        "heading_deg": 205.0,
+        "speed_knots": 4.0
+      },
+      {
+        "ts": "2026-01-16T00:00:00Z",
+        "lat": 26.50,
+        "lon": 56.70,
+        "heading_deg": 190.0,
+        "speed_knots": 4.5
+      },
+      {
+        "ts": "2026-01-16T03:00:00Z",
+        "lat": 26.40,
+        "lon": 56.90,
+        "heading_deg": 110.0,
+        "speed_knots": 10.0
+      },
+      {
+        "ts": "2026-01-16T06:00:00Z",
+        "lat": 26.33,
+        "lon": 57.05,
+        "heading_deg": 105.0,
+        "speed_knots": 10.5
+      }
+    ]
+  },
+  {
+    "id": "hormuz_03",
+    "corridor_id": "hormuz",
+    "track": [
+      {
+        "ts": "2026-01-15T00:00:00Z",
+        "lat": 26.17,
+        "lon": 56.85,
+        "heading_deg": 135.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T03:00:00Z",
+        "lat": 26.1346,
+        "lon": 56.8854,
+        "heading_deg": 135.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T06:00:00Z",
+        "lat": 26.0993,
+        "lon": 56.9207,
+        "heading_deg": 135.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T18:00:00Z",
+        "lat": 25.75,
+        "lon": 57.35,
+        "heading_deg": 250.0,
+        "speed_knots": 3.0
+      },
+      {
+        "ts": "2026-01-15T21:00:00Z",
+        "lat": 25.70,
+        "lon": 57.42,
+        "heading_deg": 240.0,
+        "speed_knots": 3.5
+      },
+      {
+        "ts": "2026-01-16T00:00:00Z",
+        "lat": 25.66,
+        "lon": 57.50,
+        "heading_deg": 220.0,
+        "speed_knots": 4.0
+      },
+      {
+        "ts": "2026-01-16T03:00:00Z",
+        "lat": 25.55,
+        "lon": 57.68,
+        "heading_deg": 100.0,
+        "speed_knots": 9.5
+      },
+      {
+        "ts": "2026-01-16T06:00:00Z",
+        "lat": 25.47,
+        "lon": 57.85,
+        "heading_deg": 95.0,
+        "speed_knots": 10.0
+      }
+    ]
+  },
+  {
+    "id": "hormuz_04",
+    "corridor_id": "hormuz",
+    "track": [
+      {
+        "ts": "2026-01-15T00:00:00Z",
+        "lat": 27.37,
+        "lon": 56.65,
+        "heading_deg": 135.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T03:00:00Z",
+        "lat": 27.3346,
+        "lon": 56.6854,
+        "heading_deg": 135.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T06:00:00Z",
+        "lat": 27.2993,
+        "lon": 56.7207,
+        "heading_deg": 135.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T18:00:00Z",
+        "lat": 26.95,
+        "lon": 57.15,
+        "heading_deg": 215.0,
+        "speed_knots": 3.8
+      },
+      {
+        "ts": "2026-01-15T21:00:00Z",
+        "lat": 26.90,
+        "lon": 57.22,
+        "heading_deg": 200.0,
+        "speed_knots": 4.2
+      },
+      {
+        "ts": "2026-01-16T00:00:00Z",
+        "lat": 26.85,
+        "lon": 57.30,
+        "heading_deg": 185.0,
+        "speed_knots": 4.5
+      },
+      {
+        "ts": "2026-01-16T03:00:00Z",
+        "lat": 26.73,
+        "lon": 57.50,
+        "heading_deg": 115.0,
+        "speed_knots": 10.2
+      },
+      {
+        "ts": "2026-01-16T06:00:00Z",
+        "lat": 26.65,
+        "lon": 57.68,
+        "heading_deg": 110.0,
+        "speed_knots": 10.8
+      }
+    ]
+  },
+  {
+    "id": "suez_cape_01",
+    "corridor_id": "suez_cape",
+    "track": [
+      {
+        "ts": "2026-01-15T00:00:00Z",
+        "lat": 12.6,
+        "lon": 43.3,
+        "heading_deg": 100.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T03:00:00Z",
+        "lat": 12.5913,
+        "lon": 43.3492,
+        "heading_deg": 100.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T06:00:00Z",
+        "lat": 12.5826,
+        "lon": 43.3985,
+        "heading_deg": 100.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T09:00:00Z",
+        "lat": 12.574,
+        "lon": 43.4477,
+        "heading_deg": 100.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T12:00:00Z",
+        "lat": 12.5653,
+        "lon": 43.497,
+        "heading_deg": 100.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T15:00:00Z",
+        "lat": 12.5566,
+        "lon": 43.5462,
+        "heading_deg": 100.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T18:00:00Z",
+        "lat": 12.5479,
+        "lon": 43.5954,
+        "heading_deg": 100.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T21:00:00Z",
+        "lat": 12.5392,
+        "lon": 43.6447,
+        "heading_deg": 100.0,
+        "speed_knots": 11.0
+      }
+    ]
+  },
+  {
+    "id": "suez_cape_02",
+    "corridor_id": "suez_cape",
+    "track": [
+      {
+        "ts": "2026-01-15T00:00:00Z",
+        "lat": 13.1,
+        "lon": 43.0,
+        "heading_deg": 100.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T03:00:00Z",
+        "lat": 13.0913,
+        "lon": 43.0492,
+        "heading_deg": 100.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T06:00:00Z",
+        "lat": 13.0826,
+        "lon": 43.0985,
+        "heading_deg": 100.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T09:00:00Z",
+        "lat": 13.074,
+        "lon": 43.1477,
+        "heading_deg": 100.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T12:00:00Z",
+        "lat": 13.0653,
+        "lon": 43.197,
+        "heading_deg": 100.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T15:00:00Z",
+        "lat": 13.0566,
+        "lon": 43.2462,
+        "heading_deg": 100.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T18:00:00Z",
+        "lat": 13.0479,
+        "lon": 43.2954,
+        "heading_deg": 100.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T21:00:00Z",
+        "lat": 13.0392,
+        "lon": 43.3447,
+        "heading_deg": 100.0,
+        "speed_knots": 11.5
+      }
+    ]
+  },
+  {
+    "id": "suez_cape_03",
+    "corridor_id": "suez_cape",
+    "track": [
+      {
+        "ts": "2026-01-15T00:00:00Z",
+        "lat": 12.2,
+        "lon": 43.9,
+        "heading_deg": 100.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T03:00:00Z",
+        "lat": 12.1913,
+        "lon": 43.9492,
+        "heading_deg": 100.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T06:00:00Z",
+        "lat": 12.1826,
+        "lon": 43.9985,
+        "heading_deg": 100.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T09:00:00Z",
+        "lat": 12.174,
+        "lon": 44.0477,
+        "heading_deg": 100.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T12:00:00Z",
+        "lat": 12.1653,
+        "lon": 44.097,
+        "heading_deg": 100.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T15:00:00Z",
+        "lat": 12.1566,
+        "lon": 44.1462,
+        "heading_deg": 100.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T18:00:00Z",
+        "lat": 12.1479,
+        "lon": 44.1954,
+        "heading_deg": 100.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T21:00:00Z",
+        "lat": 12.1392,
+        "lon": 44.2447,
+        "heading_deg": 100.0,
+        "speed_knots": 12.0
+      }
+    ]
+  },
+  {
+    "id": "suez_cape_04",
+    "corridor_id": "suez_cape",
+    "track": [
+      {
+        "ts": "2026-01-15T00:00:00Z",
+        "lat": 13.4,
+        "lon": 43.7,
+        "heading_deg": 100.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T03:00:00Z",
+        "lat": 13.3913,
+        "lon": 43.7492,
+        "heading_deg": 100.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T06:00:00Z",
+        "lat": 13.3826,
+        "lon": 43.7985,
+        "heading_deg": 100.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T09:00:00Z",
+        "lat": 13.374,
+        "lon": 43.8477,
+        "heading_deg": 100.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T12:00:00Z",
+        "lat": 13.3653,
+        "lon": 43.897,
+        "heading_deg": 100.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T15:00:00Z",
+        "lat": 13.3566,
+        "lon": 43.9462,
+        "heading_deg": 100.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T18:00:00Z",
+        "lat": 13.3479,
+        "lon": 43.9954,
+        "heading_deg": 100.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T21:00:00Z",
+        "lat": 13.3392,
+        "lon": 44.0447,
+        "heading_deg": 100.0,
+        "speed_knots": 12.5
+      }
+    ]
+  },
+  {
+    "id": "atlantic_01",
+    "corridor_id": "atlantic",
+    "track": [
+      {
+        "ts": "2026-01-15T00:00:00Z",
+        "lat": -34.0,
+        "lon": 18.5,
+        "heading_deg": 55.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T03:00:00Z",
+        "lat": -33.9713,
+        "lon": 18.541,
+        "heading_deg": 55.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T06:00:00Z",
+        "lat": -33.9426,
+        "lon": 18.5819,
+        "heading_deg": 55.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T09:00:00Z",
+        "lat": -33.914,
+        "lon": 18.6229,
+        "heading_deg": 55.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T12:00:00Z",
+        "lat": -33.8853,
+        "lon": 18.6638,
+        "heading_deg": 55.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T15:00:00Z",
+        "lat": -33.8566,
+        "lon": 18.7048,
+        "heading_deg": 55.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T18:00:00Z",
+        "lat": -33.8279,
+        "lon": 18.7457,
+        "heading_deg": 55.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T21:00:00Z",
+        "lat": -33.7992,
+        "lon": 18.7867,
+        "heading_deg": 55.0,
+        "speed_knots": 11.0
+      }
+    ]
+  },
+  {
+    "id": "atlantic_02",
+    "corridor_id": "atlantic",
+    "track": [
+      {
+        "ts": "2026-01-15T00:00:00Z",
+        "lat": -33.5,
+        "lon": 18.2,
+        "heading_deg": 55.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T03:00:00Z",
+        "lat": -33.4713,
+        "lon": 18.241,
+        "heading_deg": 55.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T06:00:00Z",
+        "lat": -33.4426,
+        "lon": 18.2819,
+        "heading_deg": 55.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T09:00:00Z",
+        "lat": -33.414,
+        "lon": 18.3229,
+        "heading_deg": 55.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T12:00:00Z",
+        "lat": -33.3853,
+        "lon": 18.3638,
+        "heading_deg": 55.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T15:00:00Z",
+        "lat": -33.3566,
+        "lon": 18.4048,
+        "heading_deg": 55.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T18:00:00Z",
+        "lat": -33.3279,
+        "lon": 18.4457,
+        "heading_deg": 55.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T21:00:00Z",
+        "lat": -33.2992,
+        "lon": 18.4867,
+        "heading_deg": 55.0,
+        "speed_knots": 11.5
+      }
+    ]
+  },
+  {
+    "id": "atlantic_03",
+    "corridor_id": "atlantic",
+    "track": [
+      {
+        "ts": "2026-01-15T00:00:00Z",
+        "lat": -34.4,
+        "lon": 19.1,
+        "heading_deg": 55.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T03:00:00Z",
+        "lat": -34.3713,
+        "lon": 19.141,
+        "heading_deg": 55.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T06:00:00Z",
+        "lat": -34.3426,
+        "lon": 19.1819,
+        "heading_deg": 55.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T09:00:00Z",
+        "lat": -34.314,
+        "lon": 19.2229,
+        "heading_deg": 55.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T12:00:00Z",
+        "lat": -34.2853,
+        "lon": 19.2638,
+        "heading_deg": 55.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T15:00:00Z",
+        "lat": -34.2566,
+        "lon": 19.3048,
+        "heading_deg": 55.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T18:00:00Z",
+        "lat": -34.2279,
+        "lon": 19.3457,
+        "heading_deg": 55.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T21:00:00Z",
+        "lat": -34.1992,
+        "lon": 19.3867,
+        "heading_deg": 55.0,
+        "speed_knots": 12.0
+      }
+    ]
+  },
+  {
+    "id": "atlantic_04",
+    "corridor_id": "atlantic",
+    "track": [
+      {
+        "ts": "2026-01-15T00:00:00Z",
+        "lat": -33.2,
+        "lon": 18.9,
+        "heading_deg": 55.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T03:00:00Z",
+        "lat": -33.1713,
+        "lon": 18.941,
+        "heading_deg": 55.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T06:00:00Z",
+        "lat": -33.1426,
+        "lon": 18.9819,
+        "heading_deg": 55.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T09:00:00Z",
+        "lat": -33.114,
+        "lon": 19.0229,
+        "heading_deg": 55.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T12:00:00Z",
+        "lat": -33.0853,
+        "lon": 19.0638,
+        "heading_deg": 55.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T15:00:00Z",
+        "lat": -33.0566,
+        "lon": 19.1048,
+        "heading_deg": 55.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T18:00:00Z",
+        "lat": -33.0279,
+        "lon": 19.1457,
+        "heading_deg": 55.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T21:00:00Z",
+        "lat": -32.9992,
+        "lon": 19.1867,
+        "heading_deg": 55.0,
+        "speed_knots": 12.5
+      }
+    ]
+  },
+  {
+    "id": "malacca_01",
+    "corridor_id": "malacca",
+    "track": [
+      {
+        "ts": "2026-01-15T00:00:00Z",
+        "lat": 2.5,
+        "lon": 101.4,
+        "heading_deg": 280.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T03:00:00Z",
+        "lat": 2.5087,
+        "lon": 101.3508,
+        "heading_deg": 280.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T06:00:00Z",
+        "lat": 2.5174,
+        "lon": 101.3015,
+        "heading_deg": 280.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T09:00:00Z",
+        "lat": 2.526,
+        "lon": 101.2523,
+        "heading_deg": 280.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T12:00:00Z",
+        "lat": 2.5347,
+        "lon": 101.203,
+        "heading_deg": 280.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T15:00:00Z",
+        "lat": 2.5434,
+        "lon": 101.1538,
+        "heading_deg": 280.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T18:00:00Z",
+        "lat": 2.5521,
+        "lon": 101.1046,
+        "heading_deg": 280.0,
+        "speed_knots": 11.0
+      },
+      {
+        "ts": "2026-01-15T21:00:00Z",
+        "lat": 2.5608,
+        "lon": 101.0553,
+        "heading_deg": 280.0,
+        "speed_knots": 11.0
+      }
+    ]
+  },
+  {
+    "id": "malacca_02",
+    "corridor_id": "malacca",
+    "track": [
+      {
+        "ts": "2026-01-15T00:00:00Z",
+        "lat": 3.0,
+        "lon": 101.1,
+        "heading_deg": 280.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T03:00:00Z",
+        "lat": 3.0087,
+        "lon": 101.0508,
+        "heading_deg": 280.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T06:00:00Z",
+        "lat": 3.0174,
+        "lon": 101.0015,
+        "heading_deg": 280.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T09:00:00Z",
+        "lat": 3.026,
+        "lon": 100.9523,
+        "heading_deg": 280.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T12:00:00Z",
+        "lat": 3.0347,
+        "lon": 100.903,
+        "heading_deg": 280.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T15:00:00Z",
+        "lat": 3.0434,
+        "lon": 100.8538,
+        "heading_deg": 280.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T18:00:00Z",
+        "lat": 3.0521,
+        "lon": 100.8046,
+        "heading_deg": 280.0,
+        "speed_knots": 11.5
+      },
+      {
+        "ts": "2026-01-15T21:00:00Z",
+        "lat": 3.0608,
+        "lon": 100.7553,
+        "heading_deg": 280.0,
+        "speed_knots": 11.5
+      }
+    ]
+  },
+  {
+    "id": "malacca_03",
+    "corridor_id": "malacca",
+    "track": [
+      {
+        "ts": "2026-01-15T00:00:00Z",
+        "lat": 2.1,
+        "lon": 102.0,
+        "heading_deg": 280.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T03:00:00Z",
+        "lat": 2.1087,
+        "lon": 101.9508,
+        "heading_deg": 280.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T06:00:00Z",
+        "lat": 2.1174,
+        "lon": 101.9015,
+        "heading_deg": 280.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T09:00:00Z",
+        "lat": 2.126,
+        "lon": 101.8523,
+        "heading_deg": 280.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T12:00:00Z",
+        "lat": 2.1347,
+        "lon": 101.803,
+        "heading_deg": 280.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T15:00:00Z",
+        "lat": 2.1434,
+        "lon": 101.7538,
+        "heading_deg": 280.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T18:00:00Z",
+        "lat": 2.1521,
+        "lon": 101.7046,
+        "heading_deg": 280.0,
+        "speed_knots": 12.0
+      },
+      {
+        "ts": "2026-01-15T21:00:00Z",
+        "lat": 2.1608,
+        "lon": 101.6553,
+        "heading_deg": 280.0,
+        "speed_knots": 12.0
+      }
+    ]
+  },
+  {
+    "id": "malacca_04",
+    "corridor_id": "malacca",
+    "track": [
+      {
+        "ts": "2026-01-15T00:00:00Z",
+        "lat": 3.3,
+        "lon": 101.8,
+        "heading_deg": 280.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T03:00:00Z",
+        "lat": 3.3087,
+        "lon": 101.7508,
+        "heading_deg": 280.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T06:00:00Z",
+        "lat": 3.3174,
+        "lon": 101.7015,
+        "heading_deg": 280.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T09:00:00Z",
+        "lat": 3.326,
+        "lon": 101.6523,
+        "heading_deg": 280.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T12:00:00Z",
+        "lat": 3.3347,
+        "lon": 101.603,
+        "heading_deg": 280.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T15:00:00Z",
+        "lat": 3.3434,
+        "lon": 101.5538,
+        "heading_deg": 280.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T18:00:00Z",
+        "lat": 3.3521,
+        "lon": 101.5046,
+        "heading_deg": 280.0,
+        "speed_knots": 12.5
+      },
+      {
+        "ts": "2026-01-15T21:00:00Z",
+        "lat": 3.3608,
+        "lon": 101.4553,
+        "heading_deg": 280.0,
+        "speed_knots": 12.5
+      }
+    ]
+  }
+]

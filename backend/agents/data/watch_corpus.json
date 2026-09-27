@@ -1,0 +1,163 @@
+[
+  {
+    "id": "news_hormuz_2019_seizure",
+    "corridor": "hormuz",
+    "date": "2019-07-19",
+    "source": "wire reporting",
+    "text": "Iranian forces seized a UK-flagged tanker transiting the Strait of Hormuz amid rising tension over sanctions enforcement."
+  },
+  {
+    "id": "news_hormuz_2018_threat",
+    "corridor": "hormuz",
+    "date": "2018-07-04",
+    "source": "wire reporting",
+    "text": "Iranian officials publicly threatened to close the Strait of Hormuz to all shipping if the country's own oil exports were blocked by sanctions."
+  },
+  {
+    "id": "sanc_hormuz_2019",
+    "corridor": "hormuz",
+    "date": "2019-05-08",
+    "source": "sanctions notice",
+    "text": "The US ended sanctions waivers for countries importing Iranian crude, escalating the standoff around Gulf shipping lanes."
+  },
+  {
+    "id": "news_hormuz_2019_tanker_war",
+    "corridor": "hormuz",
+    "date": "2019-06-13",
+    "source": "wire reporting",
+    "text": "Two tankers were attacked in the Gulf of Oman near the Strait of Hormuz; Gulf states raised naval alert levels in response."
+  },
+  {
+    "id": "news_hormuz_2011_threat",
+    "corridor": "hormuz",
+    "date": "2011-12-27",
+    "source": "wire reporting",
+    "text": "Iran conducted naval exercises near the Strait of Hormuz and reiterated its ability to close the strait in response to further sanctions."
+  },
+  {
+    "id": "news_suez_2023_houthi",
+    "corridor": "suez_cape",
+    "date": "2023-11-19",
+    "source": "wire reporting",
+    "text": "Houthi forces began targeting commercial vessels in the southern Red Sea approach to the Suez Canal, citing the Gaza conflict."
+  },
+  {
+    "id": "news_suez_2023_dec_triple_attack",
+    "corridor": "suez_cape",
+    "date": "2023-12-03",
+    "source": "wire reporting",
+    "text": "Houthi forces claimed a missile and drone attack on three commercial vessels in the Red Sea in a single day, marking a sharp escalation from earlier isolated incidents."
+  },
+  {
+    "id": "news_suez_2023_bp_pause",
+    "corridor": "suez_cape",
+    "date": "2023-12-18",
+    "source": "wire reporting",
+    "text": "BP announced a temporary pause of all Red Sea oil transits following renewed Houthi attacks, becoming the first major oil company to publicly halt transits through the corridor."
+  },
+  {
+    "id": "news_suez_2024_us_uk_strikes",
+    "corridor": "suez_cape",
+    "date": "2024-01-12",
+    "source": "wire reporting",
+    "text": "US and UK forces conducted air strikes against Houthi missile and radar sites in Yemen in direct response to the escalating shipping attacks."
+  },
+  {
+    "id": "news_suez_2024_reroute",
+    "corridor": "suez_cape",
+    "date": "2024-01-15",
+    "source": "wire reporting",
+    "text": "Multiple major shipping lines announced rerouting around the Cape of Good Hope rather than transiting the Red Sea, citing attack risk."
+  },
+  {
+    "id": "sanc_suez_2024_insurance",
+    "corridor": "suez_cape",
+    "date": "2024-02-02",
+    "source": "maritime insurance notice",
+    "text": "War-risk insurance premiums for Red Sea transits rose sharply, reported in the range of 1-2% of vessel value versus a pre-crisis baseline near 0.1%."
+  },
+  {
+    "id": "news_suez_2021_blockage",
+    "corridor": "suez_cape",
+    "date": "2021-03-23",
+    "source": "wire reporting",
+    "text": "A container ship ran aground and blocked the Suez Canal for six days, halting an estimated $9 billion/day of transiting trade."
+  },
+  {
+    "id": "news_suez_2024_strike",
+    "corridor": "suez_cape",
+    "date": "2024-03-06",
+    "source": "wire reporting",
+    "text": "A Houthi missile strike sank a bulk carrier in the Red Sea, the first vessel loss of the campaign against shipping in the corridor."
+  },
+  {
+    "id": "news_atlantic_2022_sanctions",
+    "corridor": "atlantic",
+    "date": "2022-03-08",
+    "source": "wire reporting",
+    "text": "The US and allies moved to restrict imports of Russian-origin crude, redirecting some Atlantic-basin supply flows."
+  },
+  {
+    "id": "news_atlantic_2024_opec",
+    "corridor": "atlantic",
+    "date": "2024-06-02",
+    "source": "wire reporting",
+    "text": "OPEC+ producers, several with Atlantic-basin export terminals, adjusted output quotas, with muted effect on shipping-lane risk."
+  },
+  {
+    "id": "news_atlantic_2023_weather",
+    "corridor": "atlantic",
+    "date": "2023-09-14",
+    "source": "wire reporting",
+    "text": "A hurricane forced temporary closure of several US Gulf Coast export terminals feeding Atlantic crude routes."
+  },
+  {
+    "id": "news_atlantic_2020_price_war",
+    "corridor": "atlantic",
+    "date": "2020-03-09",
+    "source": "wire reporting",
+    "text": "A Russia-Saudi production dispute triggered a sharp oil price collapse, with no direct shipping-lane disruption reported."
+  },
+  {
+    "id": "news_atlantic_2019_sanctions",
+    "corridor": "atlantic",
+    "date": "2019-01-28",
+    "source": "sanctions notice",
+    "text": "The US sanctioned a major Atlantic-basin state oil company, disrupting some crude export financing without closing shipping lanes."
+  },
+  {
+    "id": "news_malacca_2015_piracy",
+    "corridor": "malacca",
+    "date": "2015-06-11",
+    "source": "wire reporting",
+    "text": "A regional piracy-reporting center logged a rise in small-tanker hijackings for fuel theft in the Malacca Strait approaches."
+  },
+  {
+    "id": "news_malacca_2021_congestion",
+    "corridor": "malacca",
+    "date": "2021-08-30",
+    "source": "wire reporting",
+    "text": "Port congestion and COVID-related crew-change restrictions slowed tanker transits through the Malacca Strait."
+  },
+  {
+    "id": "news_malacca_2010_patrol",
+    "corridor": "malacca",
+    "date": "2010-05-20",
+    "source": "wire reporting",
+    "text": "Littoral states expanded joint naval patrols in the Malacca Strait following a multi-year rise in reported piracy incidents."
+  },
+  {
+    "id": "news_malacca_2023_traffic",
+    "corridor": "malacca",
+    "date": "2023-04-11",
+    "source": "wire reporting",
+    "text": "Malacca Strait tanker traffic reached a multi-year high as Asia-Pacific refiners increased throughput, with no security incidents reported."
+  },
+  {
+    "id": "news_malacca_2016_grounding",
+    "corridor": "malacca",
+    "date": "2016-01-05",
+    "source": "wire reporting",
+    "text": "A tanker ran aground in the Malacca Strait's shallow traffic separation scheme, briefly disrupting transit scheduling."
+  }
+]

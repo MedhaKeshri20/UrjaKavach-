@@ -1,0 +1,85 @@
+# One command spins the whole stack: `docker compose up --build`.
+#
+# Reads repo-root .env for ${VAR} substitution (JWT_SECRET, GROQ_API_KEY,
+# POSTGRES_PASSWORD, USE_REAL_AGENTS, ...) — the same file local
+# `uvicorn`/`pytest` runs use. `${VAR:?...}` entries are required; compose
+# fails fast with a clear message if they're missing from .env.
+#
+# No Redis service: backend/bus.py only ships InMemoryBus. Settings.redis_url
+# exists for future parity but nothing reads it — a Redis container here
+# would just idle, so it's deliberately left out rather than kept for show.
+#
+# NOTE — the frontend's VITE_* args (below) are BUILD ARGS, not runtime env:
+# TanStack Start's client bundle inlines them at `npm run build` time (see
+# India Connect Portal/Dockerfile). VITE_API_URL/VITE_WS_URL must be reachable
+# from the *browser*, not from inside this compose network. The
+# localhost:8000 defaults only work when you open the frontend from the same
+# machine Docker is running on. Deploying to a real host means rebuilding the
+# frontend image with these pointed at that host's public backend URL:
+#   docker compose build frontend && docker compose up -d frontend
+#
+# VITE_LOVABLE_CONNECTOR_GOOGLE_MAPS_BROWSER_KEY is also a build arg, same
+# rule — left unset here it silently falls back to the static IndiaMap SVG
+# (see RealWorldMap.tsx) rather than breaking the build. Set it in .env (see
+# .env.example) and rebuild the frontend to get the real Google Maps view;
+# it must be restricted by HTTP referrer in Google Cloud Console to whatever
+# origin/domain this frontend is actually served from.
+services:
+  api:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql+psycopg://urja:${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env — see .env.example}@postgres:5432/urja
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:8080}
+      SEED_ON_STARTUP: "1"
+      JWT_SECRET: ${JWT_SECRET:?set JWT_SECRET in .env — see .env.example}
+      JWT_ALGORITHM: ${JWT_ALGORITHM:-HS256}
+      JWT_EXPIRY_MINUTES: ${JWT_EXPIRY_MINUTES:-720}
+      USE_REAL_AGENTS: ${USE_REAL_AGENTS:-0}
+      GROQ_API_KEY: ${GROQ_API_KEY:-}
+      WATCH_MODEL_PRIMARY: ${WATCH_MODEL_PRIMARY:-llama-3.3-70b-versatile}
+      WATCH_MODEL_FALLBACK: ${WATCH_MODEL_FALLBACK:-llama-3.1-8b-instant}
+    ports:
+      - "8000:8000"
+    volumes:
+      # Persists the RAG vector store (+ its one-time ONNX embedding-model
+      # download) across container recreation, so `compose down && up` isn't
+      # a repeated cold start whenever USE_REAL_AGENTS=1.
+      - chroma_data:/app/backend/agents/.chroma
+
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: urja
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env — see .env.example}
+      POSTGRES_DB: urja
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U urja -d urja"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  frontend:
+    build:
+      context: "./India Connect Portal"
+      dockerfile: Dockerfile
+      args:
+        VITE_API_URL: ${VITE_API_URL:-http://localhost:8000}
+        VITE_WS_URL: ${VITE_WS_URL:-ws://localhost:8000/ws/state}
+        VITE_LOVABLE_CONNECTOR_GOOGLE_MAPS_BROWSER_KEY: ${VITE_LOVABLE_CONNECTOR_GOOGLE_MAPS_BROWSER_KEY:-}
+        VITE_LOVABLE_CONNECTOR_GOOGLE_MAPS_TRACKING_ID: ${VITE_LOVABLE_CONNECTOR_GOOGLE_MAPS_TRACKING_ID:-}
+    restart: unless-stopped
+    depends_on:
+      - api
+    ports:
+      - "8080:8080"
+
+volumes:
+  pgdata:
+  chroma_data:

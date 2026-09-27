@@ -1,0 +1,5 @@
+[
+  { "id": "jamnagar", "name": "Jamnagar (RIL)",       "capacity_bpd": 1240000, "compatible_grades": ["Basrah Medium", "Arab Light", "Urals", "Murban", "Bonny Light"], "buffer_days": 9,  "lat": 22.34, "lon": 69.85 },
+  { "id": "vadinar",  "name": "Vadinar (Nayara)",     "capacity_bpd": 405000,  "compatible_grades": ["Urals", "Basrah Medium", "Arab Light"], "buffer_days": 8,  "lat": 22.47, "lon": 69.73 },
+  { "id": "paradip",  "name": "Paradip (IOCL)",       "capacity_bpd": 300000,  "compatible_grades": ["Arab Light", "Murban", "Lula", "WTI"], "buffer_days": 10, "lat": 20.29, "lon": 86.60 }
+]

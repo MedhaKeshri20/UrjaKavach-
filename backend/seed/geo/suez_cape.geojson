@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "suez_cape",
+        "name": "Suez / Cape of Good Hope",
+        "note": "Illustrative, hand-authored approximate route (SPEC.md Segment 1 Phase 6 decision #10) — not surveyed navigational data. Anchored at the same coordinate frontend/components/shared/interactive-map.client.tsx's NODES constant already uses for this corridor (the Bab-el-Mandeb/Gulf of Aden approach), bending east across the Arabian Sea toward India."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [43.3, 12.6],
+          [48.0, 11.5],
+          [55.0, 13.0],
+          [65.0, 16.0]
+        ]
+      }
+    }
+  ]
+}

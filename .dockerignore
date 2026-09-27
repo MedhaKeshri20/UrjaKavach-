@@ -1,0 +1,28 @@
+# Used for the backend image (build context = repo root, see
+# docker-compose.yml / backend/Dockerfile). Keeps the huge, irrelevant
+# frontend trees and local dev state out of the build context upload.
+
+.venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+*.db
+*.sqlite3
+backend/agents/.chroma/
+
+.env
+.env.*
+!.env.example
+
+.git/
+.vscode/
+.idea/
+
+# Unrelated app trees — not needed for the backend image.
+India Connect Portal/
+frontend/

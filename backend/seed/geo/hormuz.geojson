@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hormuz",
+        "name": "Strait of Hormuz",
+        "note": "Illustrative, hand-authored approximate route (SPEC.md Segment 1 Phase 6 decision #10) — not surveyed navigational data. Anchored at the same coordinate frontend/components/shared/interactive-map.client.tsx's NODES constant already uses for this corridor, bending southeast through the Gulf of Oman toward the Arabian Sea approach to India."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [56.25, 26.57],
+          [57.8, 25.0],
+          [61.0, 22.0],
+          [68.0, 19.0]
+        ]
+      }
+    }
+  ]
+}
